@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Nov4ou</title>
   <subtitle>Always a student.</subtitle>
-  <updated>2023-01-20T04:02:06+08:00</updated>
+  <updated>2023-01-20T11:20:18+08:00</updated>
   <author>
     <name>Xinghang Chen</name>
     <uri>http://localhost:4000/</uri>
@@ -51,9 +51,9 @@
       Asymptotic Notations:
 
 $ \Theta(g(n))=\left\{ f(n): there \ exist \ positive \ constants \ c_1, \ c_2, \ and \ n_0 \ such \ that 0 \leq c_1g(n) \leq f(n) \leq c_2g(n) \ for \ all \ n \geq n_0 \right\}. $
-$O(g(n))=\left.\{ f(n): there \ exist \ positive \ constants \ c \ and \ n_0
-\right. \left.\ such \ that \ 0 \leq f(n) \leq cg(n) \ for \ all \ n \geq n_0 \right\}.$
-$\Omega(g(n))=\left.\{ f(n)...
+\(O(g(n))=\left.\{ f(n): there \ exist \ positive \ constants \ c \ and \ n_0
+\right. \left.\ such \ that \ 0 \leq f(n) \leq cg(n) \ for \ all \ n \geq n_0 \right\}.\)
+\(\Omega(g(n))=\left.\{ f...
     </summary>
   
 

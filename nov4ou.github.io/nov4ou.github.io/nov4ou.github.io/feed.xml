@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Nov4ou</title>
+  <title>Nov4ou's Blog</title>
   <subtitle>Always a student.</subtitle>
-  <updated>2023-01-20T14:42:48+08:00</updated>
+  <updated>2023-01-20T20:30:21+08:00</updated>
   <author>
     <name>Xinghang Chen</name>
     <uri>http://localhost:4000/</uri>
@@ -34,9 +34,7 @@
 
   
     
-    <category term="Introduction to algorithm" />
-    
-    <category term="3th" />
+    <category term="Introduction to algorithm 3th" />
     
   
 

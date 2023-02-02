@@ -43,7 +43,7 @@ const resource = [
 const allowedDomains = [
     
 
-    'www.nov4ou.top',
+    'localhost:4000',
 
     
 

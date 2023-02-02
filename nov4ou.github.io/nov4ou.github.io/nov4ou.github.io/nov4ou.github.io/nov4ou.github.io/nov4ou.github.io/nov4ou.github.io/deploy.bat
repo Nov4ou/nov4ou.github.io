@@ -1,4 +1,4 @@
-Xcopy "C:\Users\megas\Documents\MyBlog\nov4ou.github.io\_site\*" "C:\Users\megas\Documents\MyBlog\nov4ou.github.io\nov4ou.github.io\" /E
+Xcopy "C:\Users\megas\Documents\Jekyll\jekyll-theme-chirpy\_site\*" "C:\Users\megas\Documents\Jekyll\jekyll-theme-chirpy\nov4ou.github.io\" /E
 
 cd nov4ou.github.io
 
