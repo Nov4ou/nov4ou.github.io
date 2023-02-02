@@ -1,0 +1,234 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Nov4ou's Blog</title>
+  <subtitle>Always a student.</subtitle>
+  <updated>2023-01-21T01:52:05+08:00</updated>
+  <author>
+    <name>Xinghang Chen</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
+  <rights> © 2023 Xinghang Chen </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Properties of Asymptotic Notations</title>
+    <link href="http://localhost:4000/posts/properties-of-asymptotic-notations/" rel="alternate" type="text/html" title="Properties of Asymptotic Notations" />
+    <published>2023-01-20T02:46:55+08:00</published>
+  
+    <updated>2023-01-20T02:46:55+08:00</updated>
+  
+    <id>http://localhost:4000/posts/properties-of-asymptotic-notations/</id>
+    <content src="http://localhost:4000/posts/properties-of-asymptotic-notations/" />
+    <author>
+      <name>Xinghang Chen</name>
+    </author>
+
+  
+    
+    <category term="Introduction to algorithm 3th" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Asymptotic Notations:
+
+$ \Theta(g(n))=\left\{ f(n): there \ exist \ positive \ constants \ c_1, \ c_2, \ and \ n_0 \ such \ that 0 \leq c_1g(n) \leq f(n) \leq c_2g(n) \ for \ all \ n \geq n_0 \right\}. $
+$ O(g(n))=\left\{ f(n): there \ exist \ positive \ constants \ c \ and \ n_0
+\right. \left.\ such \ that \ 0 \leq f(n) \leq cg(n) \ for \ all \ n \geq n_0 \right\}. $
+$ \Omega(g(n))=\left\{ f(n...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Digital Clock By 51MCU</title>
+    <link href="http://localhost:4000/posts/digital-clock-by-51mcu/" rel="alternate" type="text/html" title="Digital Clock By 51MCU" />
+    <published>2023-01-20T02:40:42+08:00</published>
+  
+    <updated>2023-01-20T02:40:42+08:00</updated>
+  
+    <id>http://localhost:4000/posts/digital-clock-by-51mcu/</id>
+    <content src="http://localhost:4000/posts/digital-clock-by-51mcu/" />
+    <author>
+      <name>Xinghang Chen</name>
+    </author>
+
+  
+    
+    <category term="MCU" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Implement Digital Clock by STC89C52
+
+Preface
+The final problem combinate all the function learned before, such as nixie tubes, alarm, buzzer and timers, etc. To finish this task, we should link all previous program modules carefully.
+
+
+  There are four modes for this clock. The first mode display current time,
+the second mode display the alarm time, the third mode is used to set  current time a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Draw A Line in OLED</title>
+    <link href="http://localhost:4000/posts/draw-a-line-in-oled/" rel="alternate" type="text/html" title="Draw A Line in OLED" />
+    <published>2023-01-20T02:11:40+08:00</published>
+  
+    <updated>2023-01-20T02:11:40+08:00</updated>
+  
+    <id>http://localhost:4000/posts/draw-a-line-in-oled/</id>
+    <content src="http://localhost:4000/posts/draw-a-line-in-oled/" />
+    <author>
+      <name>Xinghang Chen</name>
+    </author>
+
+  
+    
+    <category term="Computer Graphics" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Draw a Straight Line in SSD-1306 OLED Screen
+
+Preface
+To draw a line in the screen, you should determine two points at first. If those points happen to lie in the horizontal line or the vertical line, just light up all the pixels in that line. But in most case we have to draw a line with different slope. There are various method to do it. In this blog I will show two common solutions.
+
+First of...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>3-2-7</title>
+    <link href="http://localhost:4000/posts/3-2-7/" rel="alternate" type="text/html" title="3-2-7" />
+    <published>2023-01-20T01:17:09+08:00</published>
+  
+    <updated>2023-01-20T01:17:09+08:00</updated>
+  
+    <id>http://localhost:4000/posts/3-2-7/</id>
+    <content src="http://localhost:4000/posts/3-2-7/" />
+    <author>
+      <name>Xinghang Chen</name>
+    </author>
+
+  
+    
+    <category term="Introduction to algorithm 3th" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Problem
+
+  Prove by induction that the $i$th Fibonacci number satisfies the equality
+\begin{equation}
+  F_i= \frac{\phi^i-\hat{\phi}^i}{\sqrt{5}},
+\end{equation}
+where $\phi$ is the golden ratio and $\hat{\phi}$​ is its conjugate.(two roots of the equation）
+\begin{equation}
+  x^2 = x + 1
+\end{equation}
+
+
+Proof
+
+  
+    Base case:
+
+    For $i=0,$
+\begin{equation}
+\begin{aligned}
+\frac{\phi^0-\hat...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Vmess</title>
+    <link href="http://localhost:4000/posts/vmess/" rel="alternate" type="text/html" title="Vmess" />
+    <published>2023-01-19T16:36:36+08:00</published>
+  
+    <updated>2023-01-19T16:36:36+08:00</updated>
+  
+    <id>http://localhost:4000/posts/vmess/</id>
+    <content src="http://localhost:4000/posts/vmess/" />
+    <author>
+      <name>Xinghang Chen</name>
+    </author>
+
+  
+    
+    <category term="Useless Stuff" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Use the link below.
+
+URL
+vmess://eyAidiI6IjIiLCAicHMiOiIiLCAiYWRkIjoiNDUuNzcuNC4xMzkiLCAicG9ydCI6IjQ0MyIsICJpZCI6IjgyMTViZDU0LTQ4ZWYtNGU0Ni04ODk4LWNkMWE0NDUwZGZlYyIsICJhaWQiOiIwIiwgIm5ldCI6IndzIiwgInR5cGUiOiJub25lIiwgImhvc3QiOiJ3d3cubm92NG91LnRvcCIsICJwYXRoIjoiL2k0cEY5IiwgInRscyI6InRscyIgfQ==
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
