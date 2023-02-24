@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://www.nov4ou.top/sitemap.xml
+Sitemap: http://localhost:4000/sitemap.xml
