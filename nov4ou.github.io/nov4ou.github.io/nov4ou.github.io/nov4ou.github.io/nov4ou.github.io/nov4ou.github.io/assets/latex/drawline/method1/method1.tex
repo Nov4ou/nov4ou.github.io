@@ -1,0 +1,46 @@
+\documentclass[tikz,convert=pdf2svg,multi=false,10pt]{standalone}
+\usepackage{tikz}
+\usepackage{color}
+% \pagecolor{black}
+\usetikzlibrary{intersections}
+\usetikzlibrary {arrows.meta} 
+\begin{document}
+\tikzset{node scale/.style={
+    every node/.append style={scale=#1}
+  }
+}
+\begin{tikzpicture}[node scale=2,>=Stealth,color=white]
+  \draw[step=1cm,gray,very thin] (0,-0.9) grid (15.9,10);
+  \draw[->, thick] (0,10) -- (16,10) node [below=1pt] {$x$};
+  \draw[->, thick] (0,10) -- (0,-1) node [right=1pt] {$y$};
+  
+  \draw (5,10) node [above] {$5$} -- +(0,5pt);
+  \draw (5,10) -- +(0,-5pt);
+  \draw (10,10) node [above] {$10$} -- +(0,5pt);
+  \draw (10,10) -- +(0,-5pt);
+  \draw (15,10) node [above] {$15$} -- +(0,5pt);
+  \draw (15,10) -- +(0,-5pt);
+  \draw (0,5) node [left] {$5$} -- +(5pt,0);
+  \draw (0,5) -- +(-5pt,0);
+  \draw (0,0) node [left] {$10$} -- +(5pt,0);
+  \draw (0,0) -- +(-5pt,0);
+
+  % \filldraw[fill=green!50,draw=gray,very thin] (2,6) rectangle (3,5);
+  % \filldraw[fill=green!50,draw=gray,very thin] (3,6) rectangle (4,5);
+  % \filldraw[fill=green!50,draw=gray,very thin] (4,5) rectangle (5,4);
+  % \filldraw[fill=green!50,draw=gray,very thin] (5,5) rectangle (6,4);
+  % \filldraw[fill=green!50,draw=gray,very thin] (6,5) rectangle (7,4);
+  % \filldraw[fill=green!50,draw=gray,very thin] (7,4) rectangle (8,3);
+  % \filldraw[fill=green!50,draw=gray,very thin] (8,4) rectangle (9,3);
+  % \filldraw[fill=green!50,draw=gray,very thin] (9,3) rectangle (10,2);
+  % \filldraw[fill=green!50,draw=gray,very thin] (10,3) rectangle (11,2);
+  % \filldraw[fill=green!50,draw=gray,very thin] (11,3) rectangle (12,2);
+  % \filldraw[fill=green!50,draw=gray,very thin] (12,2) rectangle (13,1);
+  % \filldraw[fill=green!50,draw=gray,very thin] (13,2) rectangle (14,1);
+
+  \draw[red, ultra thick] (2,6) -- node[above right, white] {$y=\frac{4}{11}x+\frac{36}{11}$} (13,2);
+  \filldraw[gray] (2,6) circle [radius=5pt];
+  \filldraw[gray] (13,2) circle [radius=5pt];
+\end{tikzpicture}
+
+\end{document}
