@@ -81,7 +81,7 @@ The last euation can be written as
 \begin{equation}
 f(x,y):=Ax+By+C=0
 \end{equation}
-where $A=\Delta y=y_2-y_1,B=-\Delta x=-(x_2-x_1),C=(\Delta x)b=x_2y_1-x1y_2$.
+where $$A=\Delta y=y_2-y_1,B=-\Delta x=-(x_2-x_1),C=(\Delta x)b=x_2y_1-x1y_2$$.
 
 This form only involves integers because `x` and `y` are integers, so do `A`,`B`,`C`.
 
